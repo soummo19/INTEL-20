@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn import linear_model
-data=np.genfromtxt(r'C:\Users\HP USER\Desktop\INTEL-20\TASK-1\Question-1\Salary_Data.csv', delimiter=',')
+data=np.genfromtxt(r'Salary_Data.csv', delimiter=',')
 data=np.delete(data,0,axis=0)
 x=data[:,0]
 y=data[:,1]
