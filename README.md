@@ -9,3 +9,7 @@ We recommend you use Python 3 as the language and use its libraries - `sci-kit l
 ### TASK-2
 
 Task-2 consists of a question related to basic numpy usage. The aim is for it to be an easier alternative to the TASK-1 questions.
+
+### TASK-3
+
+Task-3 is intended to be a challenge and a simulation of a real machine learning problem. it consists of three phases: data cleaning, data preparation, and data analysis. You will also need to pay attention to how you write the code.
