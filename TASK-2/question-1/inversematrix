@@ -1,0 +1,14 @@
+Created on Wed Jan 29 22:05:04 2020
+
+@author: hp
+"""
+
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+readdata=pd.read_csv("Salary_Data.csv")
+X= readdata.iloc[0:25 , 0:1].values 
+Y=X.transpose()
+Z=np.reshape(Y,(5,5))
+W=np.linalg.inv(Z)
+print(W)
